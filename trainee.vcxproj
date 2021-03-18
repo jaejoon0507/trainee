@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="bitformat.c" />
     <ClCompile Include="scanf.c" />
+    <ClCompile Include="정보처리기능사.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

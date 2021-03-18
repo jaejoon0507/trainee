@@ -1,5 +1,5 @@
-#include <stdio.h>
-#define _CRT_SECURE_NO_WARNINGS  //scanf 오류 방지
+//#include <stdio.h>
+//#define _CRT_SECURE_NO_WARNINGS  //scanf 오류 방지
 
 /*int main(void) {
 	int first, second;

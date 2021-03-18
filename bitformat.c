@@ -102,7 +102,7 @@ int main(void) {
 #include <math.h>      // 거듭제곱을 연산하기 위한 전처리기
 #include <stdio.h> 
 
-int main(void) {
+int main(void) { 
 	int init_moneny = 24, years = 382; // 투자 원금, 투자 기간
 	double interest = 0.06; // 이율
 

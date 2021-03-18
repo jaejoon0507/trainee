@@ -1,9 +1,9 @@
 #include<stdio.h>
-
+  
 // 1번. 정수를 입력 받아 짝수 홀수 출력 프로그램
-/*int main(void){
+/*int main(void){  
 	int a;
-
+	         
 	scanf_s("%d", &a, sizeof(a));
 
 	if (a % 2 == 0)

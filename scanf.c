@@ -8,7 +8,7 @@
 	scanf_s("%d", &first, sizeof(first));
 	printf("두 번째 숫자를 입력하시오:");
 	scanf_s("%d", &second, sizeof(second));
-
+	 
 	printf("두 수의 합: %d", first + second);
 
 	return 0;

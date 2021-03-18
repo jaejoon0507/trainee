@@ -3,7 +3,7 @@
 
 /*int main(void) {
 	int first, second;
-
+	 
 	printf("첫 번째 숫자를 입력하시오:");
 	scanf_s("%d", &first, sizeof(first));
 	printf("두 번째 숫자를 입력하시오:");
@@ -20,7 +20,7 @@
 int main(void) {
 	printf("이름 : 홍길동\n");
 	printf("주소 : 서울시 종로구\n");
-	printf("전화번호: 111-2222");
+	printf("전화번호: 111-2222"); 
 
 	return 0;
 }*/
@@ -32,7 +32,7 @@ int main(void) {
 		printf("정수를 입력하시오 : ");
 		scanf_s("%d", &first, sizeof(first));
 		bank = bank + first;
-	}
+	}  
 	printf("평균은 %d입니다.", bank / i);
 
 	return 0;

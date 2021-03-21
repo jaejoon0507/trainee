@@ -142,7 +142,7 @@
     <ClCompile Include="bitformat.c" />
     <ClCompile Include="scanf.c" />
     <ClCompile Include="정보처리기능사.c" />
-    <ClCompile Include="확인용.cpp" />
+    <ClCompile Include="계산기.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

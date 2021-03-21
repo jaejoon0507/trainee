@@ -21,10 +21,10 @@ int main(void) {
 
 	printf("%d \n", a);
 }*/
-#include<stdlib.h>   //난수(rand)값을 얻기 위한 헤더 파일
+/*#include<stdlib.h>   //난수(rand)값을 얻기 위한 헤더 파일
 int main(void) {
 	for (int i = 0; i < 100; i++) {
 		printf("%d \n", (rand() % 70 + 1));      // 1~70까지 난수 구함
 	}
 
-}
+}*/

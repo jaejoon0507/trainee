@@ -24,7 +24,7 @@
     <ClCompile Include="정보처리기능사.c">
       <Filter>리소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="확인용.cpp">
+    <ClCompile Include="계산기.c">
       <Filter>리소스 파일</Filter>
     </ClCompile>
   </ItemGroup>

@@ -28,3 +28,63 @@ int main(void) {
 	}
 
 }*/
+
+/*#include <stdio.h>
+
+int main(void) {
+
+	int a = 4;
+	printf("%2d", a);
+
+}*/
+
+// 포인터 
+/*
+int main(void) {
+
+	int a = 10; 
+	int *p;
+	p = &a;
+	printf("%p \n", p);   //주소 출력
+	printf("%d   \n", *p);     //주소 위치에 저장된 값 출력
+	
+	*p = 20;
+
+	printf("%d \n", *p);
+	printf("%d", a);
+}*/
+
+void swap(int* p, int n);
+void get_array_avg(int* values, int n);
+
+int main() {
+	int a[5] = { 10,20,30,40,50 };
+	double q = 2;
+	swap(&a, 5);
+	get_array_avg(&a,5);
+	q = a[0] / 5;
+	printf("%g", q);
+	
+}
+void swap(int* p, int n) {
+	for (int i = 0; i < n - 1; i++) {
+		printf("%d    ", p[i]);
+	}
+}
+void get_array_avg(int* values, int n) {
+	for (int i = 0; i < n-1; i++) {
+		values[0]  += values[i+1];
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -116,14 +116,15 @@ int main() {
 
 #include <stdio.h>
 void main() {
-	int a = 10;
+	int a = 0, b = 5;
 	int i;
+	a = b = i = 15;
 
-	for (i = 1; i <= a; i++) {
-		if (a % i == 0) {
-			printf("%d ", i);
-		}
-	}
+	i = ++a <= 19;
+
+	printf("%d",i);
+
+	return 0;
 }
 
 
